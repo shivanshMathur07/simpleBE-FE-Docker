@@ -1,0 +1,15 @@
+version: '3.8'
+services:
+  backend:
+    build: ./backend
+    volumes:
+      - ./backend:/app
+    ports:
+      - "5000:5000"
+  
+  frontend:
+    build: ./frontend/my-form-app
+    ports:
+      - "3000:3000"
+    depends_on:
+      - backend
