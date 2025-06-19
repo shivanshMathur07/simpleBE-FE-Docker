@@ -1,0 +1,17 @@
+# DevOps Assessment Project
+
+This project is a full-stack web application with:
+
+- **Backend:** Flask (Python), Dockerized
+- **Frontend:** React, Dockerized
+
+## Getting Started
+
+### Prerequisites
+
+- [Docker](https://www.docker.com/)
+- [Docker Compose](https://docs.docker.com/compose/)
+
+### Running the Application
+
+To start the entire application (both backend and frontend), run:
